@@ -1,7 +1,7 @@
 {
   "name": "react-property-sheet",
   "version": "0.0.1",
-  "description": "An React Component consisting of a modular property sheet, including boolean switches, value sliders, radio buttons, and more.",
+  "description": "A React Component consisting of a modular property sheet, including boolean switches, value sliders, radio buttons, and more.",
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/babel src -s -w -d dist",

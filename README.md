@@ -1,3 +1,3 @@
-# react-linkstate-decorator
+# react-property-sheet
 
- > An ES7 decorator for linking and merging component states.
+ > A React Component consisting of a modular property sheet, including boolean switches, value sliders, radio buttons, and more.
