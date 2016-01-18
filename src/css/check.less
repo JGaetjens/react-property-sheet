@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+
+.ps-radio-list-property {
+  .ps-radio-list-property--item {
+    input[type=checkbox] {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+
+      ~ label:before {
+        font-family: FontAwesome;
+        display: inline-block;
+        content: "\f096";
+        letter-spacing: 10px;
+        font-size: 1.2em;
+        color: @gray-lightest;
+        width: 1.4em;
+      }
+
+      &:checked ~ label:before {
+        content: "\f046";
+        font-size: 1.2em;
+        letter-spacing: 5px;
+      }
+    }
+  }
+}

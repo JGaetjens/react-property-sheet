@@ -1,0 +1,23 @@
+@import "variables";
+@import "mixins";
+
+.ps-numeric-property {
+  .ps-numeric-property--item {
+    input {
+      width: 100%;
+      margin: 0;
+      padding-right: 0;
+      line-height: 3em;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+
+      &:focus {
+        outline: @brand-secondary auto 5px;
+      }
+    }
+  }
+  label.ps-main-label {
+    border-color: @brand-secondary;
+  }
+}

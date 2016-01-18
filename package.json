@@ -1,0 +1,51 @@
+{
+  "name": "react-property-sheet",
+  "version": "0.0.1",
+  "description": "An React Component consisting of a modular property sheet, including boolean switches, value sliders, radio buttons, and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/babel src -s -w -d dist",
+    "clean": "./node_modules/.bin/rimraf dist coverage",
+    "build": "./node_modules/.bin/babel src -s -o index.js",
+    "test": "./node_modules/.bin/mocha",
+    "test-cov": "./node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- test && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js && rimraf ./coverage",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/RoviSys/react-property-sheet"
+  },
+  "authors": [
+    "Stephen C. Austin <stephen.austin@rovisys.com>",
+    "Brandon Alanskas <brandon.alanskas@rovisys.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.5",
+    "babel-istanbul": "^0.5.8",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.2.0",
+    "babel-plugin-undeclared-variables-check": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.10.3",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-private-variables": "austinsc/javascript-private-variables",
+    "isparta": "^4.0.0",
+    "istanbul": "^0.4.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.2.4",
+    "rimraf": "^2.5.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "react": "^0.14.6",
+    "react-collapse": "^1.7.2",
+    "react-draggable": "^1.1.3",
+    "react-input-toggle": "^0.3.0",
+    "react-pure-decorator": "0.0.1"
+  }
+}

@@ -1,0 +1,2 @@
+rules:
+  private-variables/no-access: 0
