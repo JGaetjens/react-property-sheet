@@ -15,4 +15,4 @@
   
 # Purpose
 
-  The react-property-sheet is a control panel used to edit or manipulate an object.
+  The react-property-sheet is a control panel used to edit or manipulate variables.
