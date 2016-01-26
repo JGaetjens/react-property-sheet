@@ -6,4 +6,13 @@
 
 # react-property-sheet
 
- > A DAT.GUI esque library written from scratch in React.js
+  A DAT.GUI esque library written from scratch in React.js
+
+
+# Installation
+
+  run `npm install react-property-sheet --save`
+  
+# Purpose
+
+  The react-property-sheet is a control panel used to edit or manipulate an object.
