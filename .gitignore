@@ -16,11 +16,8 @@ x64/
 x86/
 build/
 bld/
-lib/
-!tools/lib
 [Bb]in/
 [Oo]bj/
-coverage/
 
 # Roslyn cache directories
 *.ide/
@@ -129,7 +126,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings
+# TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 #*.pubxml
 *.publishproj
@@ -159,7 +156,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
-*.pfx
+# *.pfx
 *.publishsettings
 node_modules/
 
@@ -236,11 +233,9 @@ $RECYCLE.BIN/
 # Other Package Managers
 node_modules/
 bower_components/
-npm-debug.log
 
 # IDE crap
 .vs/
-.idea/
 wwwroot/
 
 # Lock files
@@ -254,9 +249,18 @@ en/
 fr/
 es/
 de/
-dist/
 
-# Generated Output
-*-compiled.js
-*-compiled.js.map
-_docpress/
+# WebStorm
+.idea/
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
